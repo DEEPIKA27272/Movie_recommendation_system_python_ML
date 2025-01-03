@@ -14,7 +14,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load dataset
 @st.cache_data  # Updated caching function for data-related operations
 def load_data():
-    return pd.read_csv("C:/Users/deepi/Downloads/ML PROJECTS STUFFS/movies.csv")
+    return pd.read_csv("movies.csv")
 
 movies_df = load_data()
 
